@@ -21,10 +21,9 @@ platform** for service accounts, cloud roles, API keys, certificates, OAuth
 applications, workload identities, automation, and AI agents.
 
 We are building Nomyr as an open-source alternative to commercial NHI security
-platforms such as [Astrix Security](https://astrix.security/) and
-[Oasis Security](https://www.oasis.security/). Teams can inspect the code,
-self-host the platform, extend its contracts, and keep identity metadata and
-evidence inside their own security boundary.
+platforms such as Astrix Security and Oasis Security. Teams can inspect the
+code, self-host the platform, extend its contracts, and keep identity metadata
+and evidence inside their own security boundary.
 
 ## One identity graph, from discovery to retirement
 
