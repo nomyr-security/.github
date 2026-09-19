@@ -1,24 +1,72 @@
-# Nomyr — Open-Source Non-Human Identity Security
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nomyr-security/nomyr/main/brand/svg/nomyr-lockup-on-dark.svg">
+    <img src="https://raw.githubusercontent.com/nomyr-security/nomyr/main/brand/svg/nomyr-lockup.svg" alt="Nomyr" width="360">
+  </picture>
 
-Nomyr is building an open-source security platform for **non-human identities (NHIs)**: service accounts, workload identities, cloud roles, API keys, certificates, OAuth applications, and AI agents. We aim to help security and platform teams understand machine access, assign ownership, and govern identities from discovery to retirement.
+  <h1>Open-source non-human identity security</h1>
 
-## Machine identity security across the lifecycle
+  <p><strong>Every machine identity you have, and the human who answers for it.</strong></p>
 
-Nomyr's product scope brings together:
+  <p>
+    <a href="https://nomyr.io">Website</a> ·
+    <a href="https://github.com/nomyr-security/nomyr">GitHub</a> ·
+    <a href="https://github.com/nomyr-security/nomyr#product-scope">Product</a> ·
+    <a href="https://nomyr.zulipchat.com/">Community</a>
+  </p>
+</div>
 
-- **Discovery and inventory:** connect identities, credentials, permissions, resources, and accountable owners.
-- **Risk and governance:** prioritize excessive access, stale credentials, ownership gaps, and access reviews.
-- **Credential lifecycle management:** coordinate provisioning, rotation, certificate renewal, and verified retirement.
-- **Workload and AI agent access:** design scoped, short-lived access with attributable activity and clear policies.
-- **Response and evidence:** connect approved remediation to verification and audit reporting.
+Nomyr is an **open-source, self-hostable non-human identity (NHI) security
+platform** for service accounts, cloud roles, API keys, certificates, OAuth
+applications, workload identities, automation, and AI agents.
 
-The platform is designed for self-hosting and to work alongside existing identity providers, cloud IAM, vaults, and runtime gateways. Explore the repository for the code currently available and follow its development.
+We are building Nomyr as an open-source alternative to commercial NHI security
+platforms such as [Astrix Security](https://astrix.security/) and
+[Oasis Security](https://www.oasis.security/). Teams can inspect the code,
+self-host the platform, extend its contracts, and keep identity metadata and
+evidence inside their own security boundary.
 
-## Explore and contribute
+## One identity graph, from discovery to retirement
 
-- [Nomyr source code and project overview](https://github.com/nomyr-security/nomyr)
-- [Contributing guidelines](https://github.com/nomyr-security/nomyr/blob/main/CONTRIBUTING.md)
-- [Report a bug or discuss an improvement](https://github.com/nomyr-security/nomyr/issues)
-- [Licensing: AGPL-3.0 core and Apache-2.0 SDK/API components](https://github.com/nomyr-security/nomyr/blob/main/LICENSING.md)
+Nomyr connects identity inventory, ownership, reach, posture, lifecycle, and
+verified action in one evidence-backed system:
 
-Questions or collaboration: [oss@nomyr.io](mailto:oss@nomyr.io).
+- **Discover every machine identity** across cloud, SaaS, CI/CD, Kubernetes,
+  identity providers, vaults, certificate authorities, code repositories, and
+  on-premises systems.
+- **Resolve accountable ownership** using evidence from service catalogs,
+  CODEOWNERS, deployment metadata, creation events, and attestations.
+- **Understand effective reach** across configured, observed, inferred, and
+  unknown access paths without hiding uncertainty.
+- **Prioritize identity risk** using posture, blast radius, evidence quality,
+  activity, and coverage as distinct signals.
+- **Govern the complete lifecycle** from provisioning and federation through
+  rotation, access review, exception handling, and verified retirement.
+- **Secure workloads and AI agents** with scoped policies, attributable
+  sessions, human-approved remediation, and explicitly authorized automation.
+
+## Built for control and evidence
+
+Nomyr keeps the experience, control, secret custody, and action execution planes
+physically separate. Public behavior starts with versioned OpenAPI, protobuf,
+and JSON Schema contracts. Unknown and unresolved states remain visible, and a
+completed action is verified against its original intent.
+
+## Start here
+
+- **[Explore Nomyr](https://github.com/nomyr-security/nomyr)** — source code,
+  architecture, local setup, and project overview
+- **[Understand the architecture](https://github.com/nomyr-security/nomyr#architecture)** —
+  runtime boundaries, public contracts, and security design
+- **[Contribute](https://github.com/nomyr-security/nomyr/blob/main/CONTRIBUTING.md)** —
+  development workflow, commit conventions, issues, and pull requests
+- **[Open an issue](https://github.com/nomyr-security/nomyr/issues/new/choose)** —
+  report a bug, request a feature, or suggest a documentation improvement
+- **[Join the community](https://nomyr.zulipchat.com/)** — ask questions and
+  collaborate with contributors
+- **[Report a vulnerability](https://github.com/nomyr-security/nomyr/blob/main/SECURITY.md)** —
+  follow the private security-reporting process
+
+Nomyr is independent of Astrix Security and Oasis Security and is not affiliated
+with or endorsed by either company. Their names and trademarks belong to their
+respective owners.
